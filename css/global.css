@@ -1,6 +1,7 @@
 @import "theme.css";
 
 @import "../components/nav.css";
+@import "../components/question-card.css";
 @import "../components/footer-menu.css";
 
 body {
@@ -8,8 +9,4 @@ body {
   margin: 0;
   background-color: var(--background-blue);
   color: white;
-}
-
-p {
-  font-size: 30px;
 }
