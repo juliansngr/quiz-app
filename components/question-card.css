@@ -21,13 +21,13 @@
 
 .question__tag__item {
   padding: 3px 15px;
-  background-color: var(--secondary-yellow);
+  background-color: var(--primary-lightblue);
   color: var(--text);
   border-radius: var(--border-radius-sm);
 }
 
 .answer__button {
-  background-color: var(--secondary-yellow);
+  background-color: var(--secondary-lightblue);
   padding: 10px 15px;
   border-radius: var(--border-radius-lg);
   border: none;
@@ -35,5 +35,5 @@
 }
 
 .answer__button:hover {
-  background-color: var(--primary-yellow);
+  background-color: var(--primary-lightblue);
 }

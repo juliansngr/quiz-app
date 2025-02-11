@@ -1,0 +1,74 @@
+.profile__card {
+  padding: 15px;
+  margin: 15px;
+  display: grid;
+
+  grid-template-areas:
+    "a b"
+    "c c"
+    "d d"
+    "e f"
+    "g g"
+    "h i";
+}
+
+.profile__picture {
+  grid-area: a;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: 80%;
+}
+
+.profile__name {
+  grid-area: b;
+  align-self: center;
+}
+
+.profile__about {
+  grid-area: c;
+}
+
+.profile__about__text {
+  grid-area: d;
+}
+
+.questions__answered {
+  grid-area: e;
+}
+
+.questions__bookmarked {
+  grid-area: f;
+}
+
+.profile__tag {
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-self: start;
+  background-color: var(--secondary-lightblue);
+  color: var(--text);
+  border-radius: var(--border-radius-lg);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile__settings {
+  margin: 40px 0px 25px 0px;
+  grid-area: g;
+}
+
+.dark__mode {
+  margin: 0;
+  grid-area: h;
+}
+
+.dark__mode__switch {
+  grid-area: i;
+  align-self: center;
+}
+
+.profile__icon {
+  max-width: 30px;
+}
