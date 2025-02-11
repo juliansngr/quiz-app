@@ -1,5 +1,6 @@
 nav {
   position: sticky;
+  height: 50px;
   top: 0;
   display: flex;
   justify-content: center;
@@ -10,7 +11,6 @@ nav {
 }
 
 .nav__logo {
-  max-width: 40%;
 }
 
 .nav__logo:hover {
@@ -18,5 +18,5 @@ nav {
 }
 
 .bookmarks__logo {
-  max-width: 70%;
+  object-fit: cover;
 }
