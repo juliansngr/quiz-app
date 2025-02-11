@@ -1,0 +1,10 @@
+:root {
+  --primary-yellow: #ffd500;
+  --secondary-yellow: #fdc500;
+
+  --primary-blue: #00509d;
+  --secondary-blue: #003f88;
+  --background-blue: #00296b;
+
+  --border-radius: 25px;
+}
