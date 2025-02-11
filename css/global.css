@@ -2,6 +2,8 @@
 
 @import "../components/nav.css";
 @import "../components/question-card.css";
+@import "../components/profile-card.css";
+@import "../components/dark-mode-toggle.css";
 @import "../components/footer-menu.css";
 
 body {

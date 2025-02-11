@@ -28,7 +28,7 @@
 
 .answer__button {
   background-color: var(--secondary-yellow);
-  padding: 5px 15px;
+  padding: 10px 15px;
   border-radius: var(--border-radius-lg);
   border: none;
   color: var(--text);

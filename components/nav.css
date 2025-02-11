@@ -16,3 +16,7 @@ nav {
 .nav__logo:hover {
   filter: brightness(120%);
 }
+
+.bookmarks__logo {
+  max-width: 70%;
+}

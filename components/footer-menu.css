@@ -9,6 +9,10 @@ footer {
   z-index: 99;
 }
 
-.footer__icon {
+.footer__link {
   max-width: 10%;
+  color: white;
+}
+
+.footer__icon {
 }
