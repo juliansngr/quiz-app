@@ -1,3 +1,9 @@
 @import "theme.css";
 
 @import "../components/nav.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-blue);
+}
