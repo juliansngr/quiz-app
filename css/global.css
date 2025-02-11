@@ -1,9 +1,15 @@
 @import "theme.css";
 
 @import "../components/nav.css";
+@import "../components/footer-menu.css";
 
 body {
   padding: 0;
   margin: 0;
   background-color: var(--background-blue);
+  color: white;
+}
+
+p {
+  font-size: 30px;
 }

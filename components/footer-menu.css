@@ -1,13 +1,13 @@
-nav {
+footer {
   position: sticky;
-  top: 0;
+  bottom: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: saturate(180%) blur(20px);
   padding: 20px;
 }
 
-.nav__logo {
-  max-width: 40%;
+.footer__icon {
+  max-width: 10%;
 }
